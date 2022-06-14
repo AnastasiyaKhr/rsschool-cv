@@ -2,30 +2,23 @@
 
 ![photo](/photo.jpg)
 
-==================================
 
 ## Contact me with:
 
-* Phone: +48 572846057
-* E-mail: nasty7031@gmail.com
 * GitHub: @AnastasiyaKhr
-
-==================================
+* Discord:
+* E-mail: nasty7031@gmail.com
 
 ## About me
 
-I'm 28 y.o. I worked as landscape designer for 7 years. Now I want to learn something new. I like studing. Also I'm a good team-player and well self-organized person.
-
-==================================
+I'm 28 y.o. I worked in landscape design engineering for 7 years. Now I want to learn something new. I like studing. Also I'm a good team-player and well self-organized person.
 
 ## Skills
 
 * Photoshop
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
-
-==================================
 
 ## Code example
 
