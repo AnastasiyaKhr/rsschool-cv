@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rsschool-cv-html</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#lang">Languages</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="aside">
+        <img src="assets/photo.jpg" alt="photo">
+        <h1>Anastasiya Khrobastava</h1>
+        <h2>Junior Frontend Developer</h2>
+        <section id="about">
+            <h2>About me</h2>
+            <div>
+                I'm 28 y.o. I worked in landscape design engineering for 7 years. Now I want to learn something new. I like studing. Also I'm a good team-player and self-organized person. I strive to keep up with the times. That's why I chose to be a front end developer.
+                In the future I would like to become a full stack developer.
+            </div>
+        </section>
+        <section id="contacts">
+            <h2>Contact me with</h2>
+            <ul>
+                <li>
+                    ::before "Email: "
+                    <a href="mailto:nasty7031@gmail.com">nasty7031@gmail.com</a>
+                </li>
+                <li>
+                    ::before "GitHub: "
+                    <a href="https://github.com/AnastasiyaKhr">AnastasiyaKhr</a>
+                </li>
+                <li>
+                    ::before "Discord: "
+                    <a href="https://discord.com">Anastasiya Khrobastava#0985</a>
+                </li>
+            </ul>
+        </section>
+    </aside>
+
+    <main class="main">
+        <section id="edu">
+            <h2>Education</h2>
+            <div>
+                <p>BSTU (Belarusian State Technological University)</p>
+                <p>Department of Landscape Design and Architecture</p>
+                <p>2010-2015</p>
+                <p>Minsk, Belarus</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git/GitHub</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
+        </section>
+        <section id="lang">
+            <h2>Languages</h2>
+            <div>
+                <ul>
+                    <li>Belarusian (Native)</li>
+                    <li>Russian (Native)</li>
+                    <li>English (B1/B2)</li>
+                    <li>Polish (A1)</li>
+                    <li>French (A1)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="code">
+            <h2>Code example</h2>
+            <pre><code>
+                let login = prompt('Enter login')
+
+                if (login == 'admin') {
+
+                    let password = prompt('Enter password')
+                    if (password == 'i am a boss') {
+                        alert('Hello!')
+                    } else if (password == '' || password == null) {
+                        alert('Canceled')
+                    } else {
+                        alert('Wrong password')
+                    }
+
+                } else if (login == '' || login == null) {
+                    alert('Canceled')
+                } else {
+                    alert('I do not know you')
+                }
+            </code></pre>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <P><a href="https://AnastasiyaKhr.github.io/rsschool-cv/" target="_blank">Project of my CV for RSschool</a></P>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-github" href="https://github.com/AnastasiyaKhr" target="_blank">
+            <img src="assets/git.svg" alt="GitHub link">
+        </a>
+        <p class="footer-year">2022</p>
+        <a class="footer-rsschool" href="https://rs.school/js/">
+            <img src="assets/rs_school_js.svg" alt="RSschool logo" width="73px" height="26px">
+        </a>
+    </footer>
+</body>
+
+</html>
