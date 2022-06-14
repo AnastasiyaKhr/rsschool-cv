@@ -2,18 +2,155 @@
     box-sizing: border-box;
 }
 
-nav {
+body {
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-nav ul {
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: block;
+}
+
+header {
+    display: block;
+    padding: 0 10px;
+    margin: 0;
+    background-color: #138D75;
+}
+
+.nav-list {
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
+.nav-item a {
+    color: white;
+    line-height: 25px;
+    font-variant: small-caps;
+    position: relative;
+}
+
+main {
+    display: block;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    text-decoration: underline 0.5px;
+}
+
+.jun {
+    font-variant: small-caps;
+    font-weight: 400;
+    padding-left: 20px;
 }
 
 ul {
     list-style-type: square;
+}
+
+.section-name {
+    width: 30%;
+}
+
+.img {
+    display: block;
+    width: 30%;
+}
+
+.data {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.name {
+    padding-right: 20px;
+}
+
+.section-about {
+    display: block;
+    width: 70%;
+}
+
+.section-contacts {
+    display: block;
+    width: 50%;
+}
+
+.section-edu {
+    display: block;
+    width: 50%;
+}
+
+.section-skills {
+    display: block;
+    width: 50%;
+}
+
+.section-lang {
+    display: block;
+    width: 50%;
+}
+
+.section-code {
+    display: block;
+    width: 50%;
+}
+
+pre {
+    background-color: #73C6B6;
+}
+
+.section-project a {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    display: block;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    background-color: #138D75;
+}
+
+.footer-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
 }
