@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rsschool-cv-html</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#edu">Education</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#lang">Languages</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
+                    <li class="nav-item"><a href="#project">Projects</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-name" id="name">
+                <img src="assets/photo.jpg" alt="photo" width="350" height="350" class="photo">
+                <div class="data">
+                    <h1 class="name">anastasiya khrobastava</h1>
+                    <h3 class="jun">junior frontend developer</h3>
+                </div>
+            </section>
+            <section class="section-about" id="about">
+                <h2 class="about">about me</h2>
+                <div>
+                    I'm 28 y.o. I worked in landscape design engineering for 7 years. Now I want to learn something new. I like studing. Also I'm a good team-player and self-organized person. I strive to keep up with the times. That's why I chose to be a front end developer.
+                    In the future I would like to become a full stack developer.
+                </div>
+            </section>
+            <section class="section-contacts" id="contacts">
+                <h2>contact me with</h2>
+                <ul>
+                    <li>
+                        Email:
+                        <a href="mailto:nasty7031@gmail.com">nasty7031@gmail.com</a>
+                    </li>
+                    <li>
+                        GitHub:
+                        <a href="https://github.com/AnastasiyaKhr">AnastasiyaKhr</a>
+                    </li>
+                    <li>
+                        Discord:
+                        <a href="https://discord.com">Anastasiya Khrobastava#0985</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-edu" id="edu">
+                <h2>education</h2>
+                <div>
+                    <p>BSTU (Belarusian State Technological University)</p>
+                    <p>Department of Landscape Design and Architecture</p>
+                    <p>2010-2015</p>
+                    <p>Minsk, Belarus</p>
+                </div>
+            </section>
+            <section class="section-skills" id="skills">
+                <h2>skills</h2>
+                <div>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git/GitHub</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-lang" id="lang">
+                <h2>languages</h2>
+                <div>
+                    <ul>
+                        <li>Belarusian (Native)</li>
+                        <li>Russian (Native)</li>
+                        <li>English (B1/B2)</li>
+                        <li>Polish (A1)</li>
+                        <li>French (A1)</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-code" id="code">
+                <h2>code example</h2>
+                <pre><code>
+        let login = prompt('Enter login')
+
+        if (login == 'admin') {
+
+            let password = prompt('Enter password')
+            if (password == 'i am a boss') {
+                alert('Hello!')
+            } else if (password == '' || password == null) {
+                alert('Canceled')
+            } else {
+                alert('Wrong password')
+            }
+
+        } else if (login == '' || login == null) {
+            alert('Canceled')
+        } else {
+            alert('I do not know you')
+        }
+                </code></pre>
+            </section>
+            <section class="section-progect" id="project">
+                <h2 class="pro">projects</h2>
+                <p><a href="https://AnastasiyaKhr.github.io/rsschool-cv/" target="_blank">Project of my CV for RSschool</a></p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-one">
+                <a class="footer-github" href="https://github.com/AnastasiyaKhr" target="_blank">
+                    <img src="assets/git.svg" alt="GitHub link">
+                </a>
+            </div>
+            <div class="footer-two">
+                <p class="footer-year">2022</p>
+            </div>
+            <div class="footer-three">
+                <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
+                    <img src="assets/rs_school_js.svg" alt="RSschool logo" width="73" height="26">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
